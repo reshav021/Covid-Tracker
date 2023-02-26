@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Covid Tracker</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="container">
+        <div class='flex'> <h1 style='flex:3' class='title'>Covid Tracker</h1> <button id='search' style='flex:1'>SearchCountry</button></div>
+        <div class="case totalactive"><p>Total Active</p><p class='ta'>0000</p></div>
+        <div class="case totalcases"><p>Total Cases</p><p class='tc'>0000</p></div>
+        <div class="case totaldeaths"><p>Total Deaths</p><p class='td'>0000</p></div>
+        <div class="case totalrecovered"><p>Total Recovered</p><p class='tr'>0000</p></div>
+      </div>
+    </div>
+    
+    <div class="model hide">
+      <input id='searchCountry' type="text" placeholder='Search'>
+      <div class="container">
+        <div class="country">
+          <img src="" class='img1' alt="">
+        </div>
+        <div class='flex'> <h1 style='flex:3' class='title'>Search Covid Tracker</h1> <button id='close' style='flex:1'>Close</button></div>
+        <div class="case totalactive"><p>Total Active</p><p class='tae'>0000</p></div>
+        <div class="case totalcases"><p>Total Cases</p><p class='tcs'>0000</p></div>
+        <div class="case totaldeaths"><p>Total Deaths</p><p class='tds'>0000</p></div>
+        <div class="case totalrecovered"><p>Total Recovered</p><p class='trd'>0000</p></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
